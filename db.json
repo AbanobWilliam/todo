@@ -1,0 +1,38 @@
+{
+  "Folders": [
+    {
+      "name": "asdasdasdasd",
+      "id": 2
+    },
+    {
+      "name": "asdasdasd",
+      "id": 3
+    }
+  ],
+  "Todos": [
+    {
+      "id": 2,
+      "name": "Todo 2",
+      "Completed": false,
+      "folderId": 2
+    },
+    {
+      "id": 3,
+      "name": "Todo 3",
+      "Completed": false,
+      "folderId": 3
+    },
+    {
+      "name": "New Todo",
+      "Completed": true,
+      "folderId": 1,
+      "id": 4
+    },
+    {
+      "name": "Another todo",
+      "Completed": false,
+      "folderId": 2,
+      "id": 5
+    }
+  ]
+}
