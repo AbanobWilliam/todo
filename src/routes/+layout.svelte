@@ -9,8 +9,6 @@
 	export let form;
 	export let data;
 	let isOpened = false;
-	$: console.log(form);
-	$: console.log(data);
 
 	type Folder = {
 		name: string;
@@ -28,7 +26,6 @@
 				folders = json;
 			});
 	}
-	$: console.log(folders);
 </script>
 
 <div class="content">

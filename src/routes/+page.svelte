@@ -2,8 +2,6 @@
 	import { enhance } from '$app/forms';
 	export let form;
 	export let data;
-	$: console.log(form);
-	$: console.log(data);
 </script>
 
 <form action="?/addfolder" method="POST" class="my-5" use:enhance>
